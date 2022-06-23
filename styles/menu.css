@@ -34,7 +34,11 @@
 }
 .contact a {
   text-decoration: none;
-  color: #eee;
+  color: rgb(254, 253, 255);
+}
+.contact a .material-symbols-outlined {
+  vertical-align: sub;
+  font-size: 1.2rem;
 }
 
 .menu--scroll .contact a {
@@ -256,6 +260,15 @@ ul.overlay__menu ul.submenu a {
 ul.overlay__menu a:hover,
 ul.overlay__menu ul.submenu a:hover {
   text-decoration: underline;
+}
+
+.noselect, .material-symbols-outlined {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 /*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,41 @@
+.home {
+  padding-top: 60px;
+  width: 60%;
+  margin: 0 auto 0;
+  padding-bottom: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 650px) {
+  .home {
+    width: 100%;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+.home h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.home p {
+  font-weight: 300;
+  text-align: justify;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+.home p a {
+  color: rgb(91, 2, 173);
+}
+
+.home blockquote {
+  margin: 40px;
+  font-family: "Dancing script";
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=home.css.map */
