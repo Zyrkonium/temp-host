@@ -142,6 +142,11 @@
   align-items: center;
   padding: 0 30px;
 }
+.right .menu--phone .name {
+  display: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 .right .menu--phone .menu--phone__trigger {
   display: flex;
   align-items: center;
@@ -186,11 +191,11 @@ div.menu:not(.menu--scroll) .right {
 .menu.menu--scroll .left {
     display: none;
   }
-  .right div.menu--phone {
-    justify-content: flex-end;
-  }
   .right div.menu--phone .contact {
     display: none;
+  }
+  .right div.menu--phone .name {
+    display: block;
   }
 }
 @keyframes hide {

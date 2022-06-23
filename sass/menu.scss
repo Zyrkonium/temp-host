@@ -135,6 +135,11 @@ $menu_scroll_height: 70px;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 30px;
+	.name {
+		display: none;
+		font-size: 1.5rem;
+		font-weight: 600;
+	}
 	.menu--phone__trigger {
 		display: flex;
 		align-items: center;
@@ -178,9 +183,11 @@ div.menu:not(.menu--scroll) .right {
 		display: none;
 	}
 	.right div.menu--phone {
-		justify-content: flex-end;
 		.contact {
 			display: none;
+		}
+		.name {
+			display: block;
 		}
 	}
 }
