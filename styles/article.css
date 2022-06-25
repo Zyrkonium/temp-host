@@ -81,6 +81,30 @@ p {
   margin-left: 30px;
 }
 
+blockquote {
+  font-style: italic;
+  font-size: 1.3rem;
+  font-weight: 200;
+  text-align: center;
+}
+blockquote::before {
+  content: "« ";
+}
+blockquote::after {
+  content: " »";
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin: 50px 0;
+}
+figure figcaption {
+  align-self: flex-end;
+}
+
 @media screen and (max-width: 1000px) {
   .article {
     width: 80%;
