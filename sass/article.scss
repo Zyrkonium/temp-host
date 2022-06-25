@@ -122,14 +122,13 @@ figure {
 	p {
 		margin: 0;
 	}
-	.big {
-		font-size: 1.5rem;
-		font-weight: 400;
-		text-transform: uppercase;
-		margin-top: 15px;
-	}
 }
-
+.big {
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
 @media screen and (max-width: 1000px) {
 	.article {
 		width: 80%;

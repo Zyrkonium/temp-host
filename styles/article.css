@@ -127,7 +127,8 @@ figure figcaption {
 .callout p {
   margin: 0;
 }
-.callout .big {
+
+.big {
   font-size: 1.5rem;
   font-weight: 400;
   text-transform: uppercase;
