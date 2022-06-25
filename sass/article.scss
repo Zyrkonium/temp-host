@@ -48,6 +48,9 @@ h1 {
 	gap: 50px;
 	margin-top: 25px;
 	margin-bottom: 50px;
+	&.unicol {
+		grid-template-columns: 1fr;
+	}
 }
 
 .grid_item h3 {
@@ -75,7 +78,14 @@ p {
 .article ul {
 	font-weight: 300;
 	list-style-type: "— ";
-	margin-left: 30px;
+	margin-left: 20px;
+	&.nomargin {
+		list-style-position: inside;
+		margin-left: 0;
+	}
+	li {
+		margin-top: 10px;
+	}
 }
 
 blockquote {
@@ -98,6 +108,22 @@ figure {
 	margin: 50px 0;
 	figcaption {
 		align-self: flex-end;
+	}
+}
+
+.callout {
+	border: 3px solid #d6a9d1;
+	border-radius: 15px;
+	padding: 25px;
+	margin-bottom: 50px;
+	p {
+		margin: 0;
+	}
+	.big {
+		font-size: 1.5rem;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin-top: 15px;
 	}
 }
 
