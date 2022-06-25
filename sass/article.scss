@@ -72,7 +72,7 @@ h1 {
 p {
 	font-weight: 300;
 	text-align: justify;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 .article ul {
@@ -82,9 +82,12 @@ p {
 	&.nomargin {
 		list-style-position: inside;
 		margin-left: 0;
+		li {
+			margin-top: 10px;
+		}
 	}
 	li {
-		margin-top: 10px;
+		margin-top: 5px;
 	}
 }
 

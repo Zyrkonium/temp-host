@@ -75,7 +75,7 @@ h1 {
 p {
   font-weight: 300;
   text-align: justify;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .article ul {
@@ -87,8 +87,11 @@ p {
   list-style-position: inside;
   margin-left: 0;
 }
-.article ul li {
+.article ul.nomargin li {
   margin-top: 10px;
+}
+.article ul li {
+  margin-top: 5px;
 }
 
 blockquote {
