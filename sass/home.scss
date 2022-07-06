@@ -1,3 +1,5 @@
+@import "_variables.scss";
+
 .home {
 	padding-top: 60px;
 	width: 60%;
@@ -37,4 +39,43 @@
 	font-family: "Dancing script";
 	font-size: 2rem;
 	text-align: center;
+}
+
+.grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-columns: 1fr;
+	gap: 15px;
+}
+.grid_item {
+	background-color: #eee;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	p {
+		margin: 0;
+		text-align: left;
+	}
+	p,
+	h3 {
+		color: $text_dark_color;
+	}
+}
+.grid_item img {
+	width: 100%;
+	margin: 25px 0;
+	&.vertical {
+		width: 50%;
+		margin: 25px auto;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.grid {
+		grid-template-columns: 1fr;
+	}
 }
