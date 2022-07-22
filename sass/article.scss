@@ -52,6 +52,9 @@ h1 {
 	&.unicol {
 		grid-template-columns: 1fr;
 	}
+	&--flex {
+		grid-template-columns: auto 1fr;
+	}
 }
 
 .grid_item h3 {
@@ -109,6 +112,13 @@ blockquote {
 	font-size: 1.3rem;
 	font-weight: 200;
 	text-align: center;
+	&.small {
+		font-size: 1rem;
+		margin: 35px auto 35px;
+		width: 80%;
+		text-align: justify;
+		font-family: "Old Standard TT";
+	}
 }
 figure {
 	display: flex;
@@ -139,6 +149,11 @@ figure {
 	text-transform: uppercase;
 	margin-top: 15px;
 	text-align: center;
+}
+hr {
+	width: 30%;
+	border-top: 2px solid #666;
+	margin: 50px auto 50px;
 }
 @media screen and (max-width: 1000px) {
 	.article {
