@@ -56,6 +56,12 @@ h1 {
 
 .grid_item h3 {
 	font-size: 1.6rem;
+	background-image: url(../assets/logo-list-item.svg);
+	padding-left: 2rem;
+	background-position: 0 0;
+	background-size: 2.7rem 2.7rem;
+	background-repeat: no-repeat;
+	padding-top: 15px;
 }
 .grid_item .grid_subheadline {
 	font-size: 1.2rem;
@@ -124,11 +130,15 @@ figure {
 		margin: 0;
 	}
 }
+.medium {
+	font-size: 1.2rem;
+}
 .big {
 	font-size: 1.5rem;
 	font-weight: 400;
 	text-transform: uppercase;
 	margin-top: 15px;
+	text-align: center;
 }
 @media screen and (max-width: 1000px) {
 	.article {
